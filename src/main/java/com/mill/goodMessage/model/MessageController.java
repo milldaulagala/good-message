@@ -33,8 +33,5 @@ public class MessageController {
         Message result = messageRepository.save(message);
         return ResponseEntity.ok().body(result);
     }
-
-
-
     
 }

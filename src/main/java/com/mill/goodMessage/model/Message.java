@@ -15,7 +15,7 @@ import lombok.Data;
 @Entity
 public class Message {
     public @Id @GeneratedValue Long id;
-    public Integer destination_number;
+    public String destination_number;
     public String message;
 
     public @CreationTimestamp LocalDateTime timestamp;
@@ -23,7 +23,7 @@ public class Message {
 
     public Message() {}
 
-    public Message(Integer destination_number,String message,String status){
+    public Message(String destination_number,String message,String status){
         this.destination_number = destination_number;
         this.message = message;
         this.status = status;
