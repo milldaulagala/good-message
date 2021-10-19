@@ -15,7 +15,8 @@ Goodmessage-env.eba-khhg6nzy.us-east-1.elasticbeanstalk.com
 
 # Screenshot
 
-![Screen Shot 2021-10-20 at 1 22 56 am](https://user-images.githubusercontent.com/36467805/137932628-943a8cda-f6a1-4536-91b5-798c71d7bf2c.png)
+![Screen Shot 2021-10-20 at 2 06 44 am](https://user-images.githubusercontent.com/36467805/137938554-5d53723b-b126-4fdf-a0a6-996fb282bfa9.png)
+
 
 
 # Technologies Used
