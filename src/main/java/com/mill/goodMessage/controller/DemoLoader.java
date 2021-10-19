@@ -1,4 +1,7 @@
-package com.mill.goodMessage.model;
+package com.mill.goodMessage.controller;
+
+import com.mill.goodMessage.repository.MillMessageRepository;
+import com.mill.goodMessage.model.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

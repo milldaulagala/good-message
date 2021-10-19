@@ -30,7 +30,7 @@ export default class AddMessages extends Component {
 
 
         
-        fetch("http://localhost:8080/api/messages", {
+        fetch("/api/messages", {
             method: "POST",
             // We convert the React state to JSON and send it as the POST body
             headers: {

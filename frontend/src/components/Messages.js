@@ -11,7 +11,7 @@ export default class Messages extends Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:8080/api/messages')
+        fetch('/api/messages')
         .then(response => response.json())
         .then(data => this.setState({messages: data}))
     }

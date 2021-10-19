@@ -1,7 +1,10 @@
-package com.mill.goodMessage.model;
+package com.mill.goodMessage.controller;
 
 import java.net.URISyntaxException;
 import java.util.Collection;
+
+import com.mill.goodMessage.model.Message;
+import com.mill.goodMessage.repository.MillMessageRepository;
 
 import org.springframework.http.ResponseEntity;
 
